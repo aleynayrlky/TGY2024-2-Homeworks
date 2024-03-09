@@ -3,4 +3,5 @@ Okul : Samsun Üniversitesi
 Swift Bilgisi: Başlangıç
 Yaş: 23
 Şehir: Samsun Atakum
-İnstagram: aaleynayrlkyx
+İnstagram: aaleynayrlky
+email: aaleynayerlikaya@gmail.com
