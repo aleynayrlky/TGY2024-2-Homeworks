@@ -30,6 +30,9 @@ class ViewController: UIViewController {
         print("view did disappear")
         //sayfa değişikliği yapılınca view hiyerarşiden silindiğinde çalışır
     }
+    deinit{
+        print("en son çalışan")
+    }
     
     
 

@@ -1,7 +1,8 @@
 import UIKit
 
 //*******************************************************
-//1
+
+//Question 1
 func repeatsFunc (repeatCount: Int, str: String) {
     
     }
@@ -9,14 +10,27 @@ func repeatsFunc (repeatCount: Int, str: String) {
 repeatsFunc(repeatCount: 2, str: "aaba kouq bux")
 
 //*******************************************************
-//2 yapamadım :(
 
+//Question 2
+var str = "Merhaba nasılsınız iyiyim siz nasılsınız ben de iyiyim"
+let kelimeler = str.components(separatedBy: .whitespaces)
+
+var kelimeVeSayilari = [String:Int]()
+
+for kelime in kelimeler {
+    if kelimeVeSayilari[kelime] == nil {
+        kelimeVeSayilari[kelime] = 1
+    }else{
+        kelimeVeSayilari[kelime]! += 1
+    }
+}
+print(kelimeVeSayilari)
 
 
 //*******************************************************
-//Soru 3
+
+//Question 3
 //3.1
-/*
 var sum = 0
 for number in 1...100{
     if number % 3 == 0 || number % 5 == 0{
@@ -25,11 +39,11 @@ for number in 1...100{
     }
 }
 print(sum)
-*/
+
 
 //*******************************************************
 //3.2
-/*
+
 var x = 1
 var y = 1
 var z = 0
@@ -44,7 +58,7 @@ while z < 400 {
     y = z
 }
 print(result)
- */
+ 
 
 //*******************************************************
 //3.3
